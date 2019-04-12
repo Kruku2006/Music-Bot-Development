@@ -4,7 +4,7 @@ const YouTube = require('simple-youtube-api');
 const ready = require('./handlers/ready');
 const message = require('./handlers/message');
 const config = require('./settiings/config.json');
-const {YouTubeAPIKey} = require('./settiings/credentials.json');
+const {YouTubeAPIKey} = require('./setiings/credentials.json');
 const utils = require('./global/utils');
 const bot = new discord.Client();
 
